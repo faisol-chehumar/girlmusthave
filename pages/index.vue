@@ -6,7 +6,7 @@
         girlmusthave
       </h1>
       <h2 class="subtitle">
-        My sensational Nuxt.js project
+        Shopping site for the girl.
       </h2>
       <div class="links">
         <a
