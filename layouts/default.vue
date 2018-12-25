@@ -4,10 +4,10 @@
       <el-header class="top-header">
         <el-row>
           <el-col
-            :span="4"
+            :span="1"
           >
             <img
-              src="https://afterglowcosmetics.com/lib/uploads/2017/11/Afterglow-Logo-White.png"
+              src="http://www.pngmart.com/files/4/Barbie-Logo-Transparent-PNG.png"
               alt="GirlMusthave's Logo"
               width="100%"
             >
@@ -22,9 +22,9 @@
       <el-main>
         <nuxt/>
       </el-main>
-      <el-footer>
+      <!-- <el-footer>
         <Footer/>
-      </el-footer>
+      </el-footer> -->
     </el-container>
   </div>
 </template>
@@ -44,7 +44,7 @@ export default {
 <style>
 body {
   margin: 0;
-  width: 100%;
+  width: calc(100% - 20px);
 }
 
 .top-header {

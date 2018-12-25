@@ -9,9 +9,14 @@
       v-for="(menu, index) in menuList"
       :key="`menu-${index}`"
       :index="index.toString()"
-      :href="menu.path"
+      class="menu-item"
     >
-      {{ menu.title }}
+      <nuxt-link
+        :to="menu.path"
+        class="item-link"
+      >
+        {{ menu.title }}
+      </nuxt-link>
     </el-menu-item>
   </el-menu>
 </template>
@@ -30,6 +35,19 @@ export default {
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+}
+
+.menu-item {
+  padding: 0;
+}
+
+.item-link {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
 .top-menu {
   background-color: transparent;
 }
