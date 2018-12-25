@@ -1,6 +1,6 @@
 # girlmusthave
 
-> My sensational Nuxt.js project
+> Shopping site for the girl.
 
 ## Build Setup
 
