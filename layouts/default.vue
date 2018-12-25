@@ -3,18 +3,12 @@
     <el-container>
       <el-header class="top-header">
         <el-row>
-          <el-col
-            :span="1"
-          >
-            <img
-              src="http://www.pngmart.com/files/4/Barbie-Logo-Transparent-PNG.png"
-              alt="GirlMusthave's Logo"
-              width="100%"
-            >
+          <el-col :span="4">
+            <nuxt-link to="/">
+              <Logo/>
+            </nuxt-link>
           </el-col>
-          <el-col
-            :span="20"
-          >
+          <el-col :span="20">
             <TopNav/>
           </el-col>
         </el-row>
@@ -31,11 +25,13 @@
 
 <script>
 import TopNav from '~/components/TopNav.vue'
+import Logo from '~/components/Logo.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     TopNav,
+    Logo,
     Footer
   }
 }
