@@ -10,7 +10,11 @@
         >
       </el-col>
       <el-col :span="18">
-        <h3 class="logo-title">Girl MustHave</h3>
+        <h3
+          class="logo-title"
+        >
+          Girl MustHave
+        </h3>
       </el-col>
     </el-row>
   </el-container>

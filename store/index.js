@@ -2,7 +2,7 @@ export const state = () => ({
   menuList: [
     { title: 'Home', path: '/' },
     { title: 'Shop', path: '/shop' },
-    { title: '#MustHave Blog', path: '/blog' },
+    { title: 'Blog', path: '/blog' },
     { title: 'Contact', path: 'contact' }
   ],
   activeIndex: '0'

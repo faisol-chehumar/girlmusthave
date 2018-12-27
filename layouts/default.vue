@@ -2,16 +2,7 @@
   <div>
     <el-container>
       <el-header class="top-header">
-        <el-row>
-          <el-col :span="4">
-            <nuxt-link to="/">
-              <Logo/>
-            </nuxt-link>
-          </el-col>
-          <el-col :span="20">
-            <TopNav/>
-          </el-col>
-        </el-row>
+        <TopNav/>
       </el-header>
       <el-main>
         <nuxt/>
@@ -25,22 +16,42 @@
 
 <script>
 import TopNav from '~/components/TopNav.vue'
-import Logo from '~/components/Logo.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     TopNav,
-    Logo,
     Footer
   }
 }
 </script>
 
 <style>
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 body {
   margin: 0;
   width: calc(100% - 20px);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .top-header {

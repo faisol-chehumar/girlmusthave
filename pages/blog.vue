@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      Hello
+      Blog
     </div>
   </section>
 </template>
