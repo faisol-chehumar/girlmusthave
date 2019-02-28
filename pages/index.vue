@@ -2,9 +2,20 @@
   <section class="container">
     <div>
       Hello
+      <el-switch v-model="value1" />
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      value1: true
+    }
+  }
+}
+</script>
 
 <style>
 html,
